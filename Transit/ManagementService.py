@@ -259,5 +259,6 @@ def service():
 
 run(host='0.0.0.0', port=9363, debug=True)
 
+
 #http://127.0.0.1:9363/management?start_point=51.048981,-114.03153&start_time=16:00:00&walking_time_period=15&walking_speed=1.38&bus_waiting_time=10&bus_ride_time=5&distance_decay_function=false
 #http://127.0.0.1:8080/geoserver/ows?DataInputs=StartPoint=50.89755,-113.9617;StartTime=19:34:46;WalkingTimePeriod=16;WalkingSpeed=1.11;BusWaitingTime=11;BusRideTime=5;DistanceDecayFunction=false&service=WPS&version=1.0.0&request=Execute&identifier=gs:Management_Transit
