@@ -141,3 +141,5 @@ def service():
 
 
 run(host='0.0.0.0', port=8363, debug=True)
+
+#http://127.0.0.1:8363/management?start_point=51.05723044585338,-114.11717891693115&walking_time_period=15&walking_speed=1.38&distance_decay_function=false
