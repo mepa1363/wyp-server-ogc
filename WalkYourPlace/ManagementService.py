@@ -96,7 +96,7 @@ def management(start_point, radius, distance_decay_function):
     print "aggregation data: %s" % (aggregation_data,)
 
     #return aggregation_data
-    result = '{"walkshed": %s, "poi": %s, "crime": %s}' % (aggregation_data, poi_data, crime_data)
+    result = '{"walkshed": %s, "poi": %s}' % (aggregation_data, poi_data)
     return result
 
 

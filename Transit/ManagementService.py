@@ -237,7 +237,7 @@ def management(start_point, start_time, walking_time_period, walking_speed, bus_
         crime_data = '"NULL"'
         transit_data = '"NULL"'
         #return aggregation_data
-    result = '{"walkshed": %s, "poi": %s, "crime": %s, "transit": %s}' % (aggregation_data, poi_data, crime_data, transit_data)
+    result = '{"walkshed": %s, "poi": %s}' % (aggregation_data, poi_data)
     #result = aggregation_data
     return result
 
